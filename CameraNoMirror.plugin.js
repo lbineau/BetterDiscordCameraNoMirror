@@ -26,6 +26,7 @@ module.exports = (_ => {
 
       disableMirror () {
          const css = `
+            [class*="pictureInPictureVideo-"] [class*="mirror-"],
             .media-engine-video[class*="mirror-"] {
                transform: none;
             }
